@@ -7,6 +7,7 @@ pipeline {
           steps {
             echo 'hello world '
             sh 'echo how are you'
+            archiveArtifacts(artifacts: 'target/*.jar', fingerprint: true)
           }
         }
 
