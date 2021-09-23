@@ -13,6 +13,7 @@ pipeline {
         stage('Test') {
           steps {
             sh 'echo test this file '
+            junit '**/surefire-reports/**/*'
           }
         }
 
