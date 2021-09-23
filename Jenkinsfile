@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'Build'
         echo 'Bees Buzz!'
+        echo 'hello world '
       }
     }
 
