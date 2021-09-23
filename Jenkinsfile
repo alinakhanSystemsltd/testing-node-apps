@@ -14,6 +14,7 @@ pipeline {
           steps {
             echo 'testing'
             echo 'bees bees!!!'
+            sh 'sleep 5'
           }
         }
 
