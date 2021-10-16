@@ -25,6 +25,12 @@ pipeline {
           }
         }
 
+        stage('Ayesha ') {
+          steps {
+            echo 'Hello Ayesha '
+          }
+        }
+
       }
     }
 
